@@ -4,7 +4,7 @@ import scala.collection.mutable.ListBuffer
 def getGroupedLines(): List[List[String]] = {
   var ret = new ListBuffer[List[String]]
   var l = new ListBuffer[String]
-  for (line <- Source.fromFile("src/main/scala/day1/problem1/input.txt").getLines()) {
+  for (line <- Source.fromFile("src/main/scala/day1/input.txt").getLines()) {
     if (line == "") {
       ret += l.toList
       l = new ListBuffer[String]
