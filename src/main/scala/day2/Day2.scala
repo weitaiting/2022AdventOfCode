@@ -1,5 +1,4 @@
 import scala.io.Source
-import scala.collection.mutable.ListBuffer
 
 object Moves extends Enumeration {
   type Move = Value
